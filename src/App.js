@@ -7,12 +7,12 @@ function App(props) {
   const [state, sortItems] = useState(initData);
 
   const sortByInc = () => {
-    const sorted = initData.sort((item2, item1) => item1.price > item2.price ? 1 : -1);
-    sortItems(sorted);
+    const sorted = initData.sort((item1, item2) => item1.price - item2.price);
+    sortItems([...sorted]);
   }
   const sortByDec = () => {
-    const sorted = initData.sort((item2, item1) => item1.price > item2.price ? 1 : -1);
-    sortItems(sorted);
+    const sorted = initData.sort((item1, item2) => item2.price - item1.price);
+    sortItems([...sorted]);
   }
   return (
     <div>
