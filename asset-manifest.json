@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/info-qubes-test-2/static/css/main.9ba46280.css",
+    "main.js": "/info-qubes-test-2/static/js/main.b9c4f234.js",
+    "index.html": "/info-qubes-test-2/index.html",
+    "main.9ba46280.css.map": "/info-qubes-test-2/static/css/main.9ba46280.css.map",
+    "main.b9c4f234.js.map": "/info-qubes-test-2/static/js/main.b9c4f234.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ba46280.css",
+    "static/js/main.b9c4f234.js"
+  ]
+}
